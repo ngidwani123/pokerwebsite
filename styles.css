@@ -1,0 +1,344 @@
+.background {
+  background-color: green;
+  height: 100vh;
+  width: 100vw;
+}
+
+.table {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width : 80%;
+  height: 80%;
+}
+
+.button1{
+  color: white;
+  position: absolute;
+  top: 22%;
+  left: 30%;
+}
+.button2{
+  color: white;
+  position: absolute;
+  top: 22%;
+  left: 62.75%;
+}
+.button3{
+  color: white;
+  position: absolute;
+  top: 45.5%;
+  left: 79%;
+}
+.button4{
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 62.25%;
+}
+.button5{
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 29.5%;
+}
+.button6{
+  color: white;
+  position: absolute;
+  top: 44.5%;
+  left: 16.5%;
+}
+.buttonFlop{
+  color: white;
+  position: absolute;
+  top: 46.5%;
+  left: 35%;
+}
+
+
+.menu-container {
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+}
+
+.menu {
+  background-color: #d3d3d3;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  padding: 30px 50px;
+  width: 80%;
+  height: 75%;
+  max-width: 100%;
+}
+
+.buttonX{
+  color: white;
+  position: fixed;
+  top: 10%;
+  right: 8.5%;
+  z-index: 101;
+}
+
+.buttonClearHand{
+  background-color: white;
+  color: red;
+  position: fixed;
+  top: 77.5%;
+  left: 47.5%;
+  z-index: 101;
+}
+
+.img-container {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  display: inline-block;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.card{
+  /* height: 120px;
+  width: 70px; */
+  padding: 10px 8px;
+  max-width: 7.5%;
+  height: auto;
+  width: auto\9;
+
+}
+
+.card:focus, textarea:focus
+{
+  border: 3px solid green;
+  box-shadow: 0 0 4px green;
+  outline-offset: 0px;
+  outline: none;
+}
+
+.player1-card1{
+  position: absolute;
+  width: 35px;
+  top: 13.25%;
+  left: 28.75%;
+}
+
+.player1-card2{
+  position: absolute;
+  width: 35px;
+  top: 13.25%;
+  left: 33%;
+}
+
+.player2-card1{
+  position: absolute;
+  width: 35px;
+  top: 13.25%;
+  left: 61.5%;
+}
+
+.player2-card2{
+  position: absolute;
+  width: 35px;
+  top: 13.25%;
+  left: 65.5%;
+}
+
+.player3-card1{
+  position: absolute;
+  transform: rotate(90deg);
+  width: 35px;
+  top: 40.4%;
+  left: 87.05%;
+}
+
+.player3-card2{
+  position: absolute;
+  transform: rotate(90deg);
+  width: 35px;
+  top: 48.5%;
+  left: 87.05%;
+}
+
+.player5-card1{
+  position: absolute;
+  width: 35px;
+  top: 76.85%;
+  left: 28.25%;
+}
+
+.player5-card2{
+  position: absolute;
+  width: 35px;
+  top: 76.85%;
+  left: 32.5%;
+}
+
+.player4-card1{
+  position: absolute;
+  width: 35px;
+  top: 76.85%;
+  left: 61%;
+}
+
+.player4-card2{
+  position: absolute;
+  width: 35px;
+  top: 76.85%;
+  left: 65%;
+}
+
+.player6-card1{
+  position: absolute;
+  width: 35px;
+  transform: rotate(-90deg);
+  top: 47.3%;
+  left: 9.8%;
+}
+
+.player6-card2{
+  position: absolute;
+  width: 35px;
+  transform: rotate(-90deg);
+  top: 39%;
+  left: 9.8%;
+}
+
+.flop-card1{
+  position: absolute;
+  width: 35px;
+  top: 45%;
+  left: 40.25%;
+}
+
+.flop-card2{
+  position: absolute;
+  width: 35px;
+  top: 45%;
+  left: 44.45%;
+}
+
+.flop-card3{
+  position: absolute;
+  width: 35px;
+  top: 45%;
+  left: 48.65%;
+}
+
+.calcButton{
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 46.5%;
+}
+
+.percent1{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 12%;
+  left:33%;
+  line-height: .9;
+}
+
+.percent2{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 12%;
+  left: 59%;
+  line-height: .9;
+}
+
+.percent3{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top:46%;
+  left:84%;
+  line-height: .9;
+}
+
+.percent4{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top:80%;
+  left:58%;
+  line-height: .9;
+}
+
+.percent5{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top: 80%;
+  left:32%;
+  line-height: .9;
+}
+
+.percent6{
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  top:45.5%;
+  left:8.25%;
+  line-height: .9;
+}
+
+.refresh{
+  position: absolute;
+  top: 30%;
+  left: 73%;
+}
+.turn-card{
+  position: absolute;
+  width: 35px;
+  top: 45%;
+  left: 52.68%;
+}
+
+.river-card{
+  position: absolute;
+  width: 35px;
+  top: 45%;
+  left: 56.85%;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+
+.authors{
+  position: absolute;
+  top: 88%;
+  right: 1%;
+  color: #ccc;
+  font-family: Apple Chancery, cursive;
+}
